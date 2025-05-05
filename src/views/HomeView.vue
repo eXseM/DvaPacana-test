@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import ItemsListComponent from "@/components/ItemsListComponent.vue";
+import SelectedItemsComponent from "@/components/SelectedItemsComponent.vue";
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <SelectedItemsComponent />
+    <ItemsListComponent />
   </main>
 </template>
